@@ -1,0 +1,13 @@
+* text=auto
+
+# Unity YAML assets: treat as text so they diff/merge predictably
+*.meta text
+*.unity text
+*.prefab text
+*.asset text
+*.mat text
+*.anim text
+*.controller text
+*.physicMaterial text
+*.physicsMaterial2D text
+*.shadergraph text
