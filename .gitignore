@@ -1,3 +1,34 @@
+# ---- Unity 生成内容（工程位于 DroneSim/，规则不限定层级）
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Ss]creenshots/
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+*.stackdump
+crashlytics-build.properties
+
 # ---- 本地中间文件（不入库）
 # STEP 原始模型及中间导出（STEP 由课程提供，约 98 MB）
 /model/
@@ -7,20 +38,6 @@
 *.log
 tools/venv/
 __pycache__/
-
-# ---- Unity 生成内容
-DroneSim/[Ll]ibrary/
-DroneSim/[Tt]emp/
-DroneSim/[Ll]ogs/
-DroneSim/[Oo]bj/
-DroneSim/[Bb]uild/
-DroneSim/[Bb]uilds/
-DroneSim/[Uu]ser[Ss]ettings/
-DroneSim/Screenshots/
-DroneSim/.vs/
-DroneSim/*.csproj
-DroneSim/*.sln
-DroneSim/*.slnx
 
 # 网格/材质资源与场景由 ModelData 自动生成（打开工程时或菜单 Lab4/生成仿真场景）
 DroneSim/Assets/Generated/
