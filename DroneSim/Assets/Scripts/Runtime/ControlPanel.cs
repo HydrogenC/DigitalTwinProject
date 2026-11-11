@@ -14,7 +14,7 @@ namespace Lab4
         int tab;               // 0 自定场景 1 教师指定 2 手动控制
         Vector2 logScroll;
         readonly string[] tabs = { "自定场景", "教师指定场景", "手动控制" };
-        GUIStyle box, label, small;
+        GUIStyle box, label, small, error, success, warning;
 
         TaskSetup Current => tab == 1 ? task.teacher : task.custom;
 
@@ -29,6 +29,25 @@ namespace Lab4
             box = new GUIStyle(GUI.skin.box) { alignment = TextAnchor.UpperLeft, padding = new RectOffset(10, 10, 8, 8) };
             label = new GUIStyle(GUI.skin.label) { fontSize = 14 };
             small = new GUIStyle(GUI.skin.label) { fontSize = 12, wordWrap = true };
+            error = Colored(new Color(1f, 0.32f, 0.32f), FontStyle.Bold);
+            success = Colored(new Color(0.35f, 0.9f, 0.45f), FontStyle.Bold);
+            warning = Colored(new Color(1f, 0.7f, 0.25f), FontStyle.Normal);
+        }
+
+        GUIStyle Colored(Color c, FontStyle f)
+        {
+            var s = new GUIStyle(small) { fontStyle = f };
+            s.normal.textColor = c;
+            return s;
+        }
+
+        /// <summary>按内容着色：失败红色加粗、完成绿色、布置警告橙色，其余默认。</summary>
+        GUIStyle StyleFor(string msg)
+        {
+            if (msg.Contains("失败") || msg.Contains("不可达") || msg.Contains("偏差过大")) return error;
+            if (msg.Contains("完成")) return success;
+            if (msg.Contains("警告")) return warning;
+            return small;
         }
 
         void OnGUI()
@@ -47,9 +66,9 @@ namespace Lab4
             GUI.enabled = true;
 
             GUILayout.Space(6);
-            GUILayout.Label("状态：" + task.Status, small);
+            GUILayout.Label("状态：" + task.Status, StyleFor(task.Status));
             logScroll = GUILayout.BeginScrollView(logScroll, GUILayout.Height(150));
-            for (int i = task.Log.Count - 1; i >= 0; i--) GUILayout.Label(task.Log[i], small);
+            for (int i = task.Log.Count - 1; i >= 0; i--) GUILayout.Label(task.Log[i], StyleFor(task.Log[i]));
             GUILayout.EndScrollView();
             GUILayout.EndArea();
         }

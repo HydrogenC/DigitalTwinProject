@@ -44,3 +44,6 @@ DroneSim/Assets/Generated/
 DroneSim/Assets/Generated.meta
 DroneSim/Assets/Scenes/
 DroneSim/Assets/Scenes.meta
+# Unity 异常退出后自动保存的场景恢复备份
+DroneSim/Assets/_Recovery/
+DroneSim/Assets/_Recovery.meta
