@@ -1,0 +1,29 @@
+# ---- 本地中间文件（不入库）
+# STEP 原始模型及中间导出（STEP 由课程提供，约 98 MB）
+/model/
+# 批处理验证用的工程镜像
+/_bench/
+/repo/
+*.log
+tools/venv/
+__pycache__/
+
+# ---- Unity 生成内容
+DroneSim/[Ll]ibrary/
+DroneSim/[Tt]emp/
+DroneSim/[Ll]ogs/
+DroneSim/[Oo]bj/
+DroneSim/[Bb]uild/
+DroneSim/[Bb]uilds/
+DroneSim/[Uu]ser[Ss]ettings/
+DroneSim/Screenshots/
+DroneSim/.vs/
+DroneSim/*.csproj
+DroneSim/*.sln
+DroneSim/*.slnx
+
+# 网格/材质资源与场景由 ModelData 自动生成（打开工程时或菜单 Lab4/生成仿真场景）
+DroneSim/Assets/Generated/
+DroneSim/Assets/Generated.meta
+DroneSim/Assets/Scenes/
+DroneSim/Assets/Scenes.meta

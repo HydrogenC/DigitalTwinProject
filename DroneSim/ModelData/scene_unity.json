@@ -1,0 +1,453 @@
+{
+ "groups": [
+  {
+   "name": "Table",
+   "parts": [
+    "NAUO52",
+    "NAUO53",
+    "NAUO54"
+   ]
+  },
+  {
+   "name": "RobotBase",
+   "parts": [
+    "NAUO45",
+    "NAUO18",
+    "NAUO21",
+    "NAUO22",
+    "NAUO23",
+    "NAUO24",
+    "NAUO25",
+    "NAUO26",
+    "NAUO27",
+    "NAUO30",
+    "NAUO31",
+    "NAUO32",
+    "NAUO33",
+    "NAUO34",
+    "NAUO35",
+    "NAUO36",
+    "NAUO37",
+    "NAUO38",
+    "NAUO39"
+   ]
+  },
+  {
+   "name": "Link1",
+   "parts": [
+    "NAUO46"
+   ]
+  },
+  {
+   "name": "Link2",
+   "parts": [
+    "NAUO47"
+   ]
+  },
+  {
+   "name": "Link3",
+   "parts": [
+    "NAUO48"
+   ]
+  },
+  {
+   "name": "Link4",
+   "parts": [
+    "NAUO49"
+   ]
+  },
+  {
+   "name": "Link5",
+   "parts": [
+    "NAUO50"
+   ]
+  },
+  {
+   "name": "Link6",
+   "parts": [
+    "NAUO51",
+    "NAUO19",
+    "NAUO42",
+    "NAUO40",
+    "NAUO41",
+    "NAUO28",
+    "NAUO29"
+   ]
+  },
+  {
+   "name": "JawA",
+   "parts": [
+    "NAUO43",
+    "NAUO17"
+   ]
+  },
+  {
+   "name": "JawB",
+   "parts": [
+    "NAUO44",
+    "NAUO16"
+   ]
+  },
+  {
+   "name": "ColumnSupport",
+   "parts": [
+    "NAUO3"
+   ]
+  },
+  {
+   "name": "TiltSupportBase",
+   "parts": [
+    "NAUO8",
+    "NAUO11",
+    "NAUO13"
+   ]
+  },
+  {
+   "name": "TiltSupportTop",
+   "parts": [
+    "NAUO9",
+    "NAUO12"
+   ]
+  },
+  {
+   "name": "Drone",
+   "parts": [
+    "NAUO6",
+    "NAUO7"
+   ]
+  }
+ ],
+ "parts": [
+  {
+   "id": "NAUO52",
+   "name": "DUT-A01-001桌面（1mx1m）"
+  },
+  {
+   "id": "NAUO53",
+   "name": "XAB76-L120"
+  },
+  {
+   "id": "NAUO54",
+   "name": "XAB76-L120"
+  },
+  {
+   "id": "NAUO45",
+   "name": "RD20.1-MTFR3-V6.0-1^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件"
+  },
+  {
+   "id": "NAUO18",
+   "name": "DUT-A04-001 FR3C安装板"
+  },
+  {
+   "id": "NAUO21",
+   "name": "D36-M6钢套磁吸（44kg，8mm）"
+  },
+  {
+   "id": "NAUO22",
+   "name": "T088"
+  },
+  {
+   "id": "NAUO23",
+   "name": "D36-M6钢套磁吸（44kg，8mm）"
+  },
+  {
+   "id": "NAUO24",
+   "name": "D36-M6钢套磁吸（44kg，8mm）"
+  },
+  {
+   "id": "NAUO25",
+   "name": "D36-M6钢套磁吸（44kg，8mm）"
+  },
+  {
+   "id": "NAUO26",
+   "name": "D36-M6钢套磁吸（44kg，8mm）"
+  },
+  {
+   "id": "NAUO27",
+   "name": "D36-M6钢套磁吸（44kg，8mm）"
+  },
+  {
+   "id": "NAUO30",
+   "name": "7V0500M2F"
+  },
+  {
+   "id": "NAUO31",
+   "name": "7V0510J04B200"
+  },
+  {
+   "id": "NAUO32",
+   "name": "PAL01"
+  },
+  {
+   "id": "NAUO33",
+   "name": "PAL01"
+  },
+  {
+   "id": "NAUO34",
+   "name": "PC601"
+  },
+  {
+   "id": "NAUO35",
+   "name": "WHU01-01"
+  },
+  {
+   "id": "NAUO36",
+   "name": "WHU01-01"
+  },
+  {
+   "id": "NAUO37",
+   "name": "WHU01-01"
+  },
+  {
+   "id": "NAUO38",
+   "name": "P-7V0500M-R2"
+  },
+  {
+   "id": "NAUO39",
+   "name": "DUT-A04-006阀座安装板（2位）"
+  },
+  {
+   "id": "NAUO46",
+   "name": "RD20.1-MTFR3-V6.0-2^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件"
+  },
+  {
+   "id": "NAUO47",
+   "name": "RD20.1-MTFR3-V6.0-3^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件"
+  },
+  {
+   "id": "NAUO48",
+   "name": "RD20.1-MTFR3-V6.0-4^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件"
+  },
+  {
+   "id": "NAUO49",
+   "name": "RD20.1-MTFR3-V6.0-5^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件"
+  },
+  {
+   "id": "NAUO50",
+   "name": "RD20.1-MTFR3-V6.0-5^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件"
+  },
+  {
+   "id": "NAUO51",
+   "name": "RD20.1-MTFR3-V6.0-7^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件"
+  },
+  {
+   "id": "NAUO19",
+   "name": "DUT-A04-002 FR3C法兰"
+  },
+  {
+   "id": "NAUO42",
+   "name": "HFD8X30(OP)_b"
+  },
+  {
+   "id": "NAUO40",
+   "name": "A05-DMSH-030"
+  },
+  {
+   "id": "NAUO41",
+   "name": "A05-DMSH-030"
+  },
+  {
+   "id": "NAUO28",
+   "name": "DT1-A04-004B深度相机安装板2 2026-0722比赛"
+  },
+  {
+   "id": "NAUO29",
+   "name": "Intel_RealSense_Depth_Camera_D435i"
+  },
+  {
+   "id": "NAUO43",
+   "name": "HFD8X30(OP)_t"
+  },
+  {
+   "id": "NAUO17",
+   "name": "DUT-A04-003无人机气动手指"
+  },
+  {
+   "id": "NAUO44",
+   "name": "HFD8X30(OP)_t"
+  },
+  {
+   "id": "NAUO16",
+   "name": "DUT-A04-003无人机气动手指"
+  },
+  {
+   "id": "NAUO3",
+   "name": "无人机支撑柱"
+  },
+  {
+   "id": "NAUO8",
+   "name": "支撑柱底部支架"
+  },
+  {
+   "id": "NAUO11",
+   "name": "ADU48-308-001"
+  },
+  {
+   "id": "NAUO13",
+   "name": "ADU48-308-002"
+  },
+  {
+   "id": "NAUO9",
+   "name": "无人机上支撑架"
+  },
+  {
+   "id": "NAUO12",
+   "name": "ADU48-308-001"
+  },
+  {
+   "id": "NAUO6",
+   "name": "1-1209zmv3c1_四轴飞行器主体"
+  },
+  {
+   "id": "NAUO7",
+   "name": "1-1209zmv3c1_四轴飞行器电池"
+  }
+ ],
+ "joints": [
+  {
+   "point": {
+    "x": 0.0,
+    "y": 0.0206,
+    "z": -0.22
+   },
+   "axis": {
+    "x": 0.0,
+    "y": 1.0,
+    "z": 0.0
+   }
+  },
+  {
+   "point": {
+    "x": 0.0538,
+    "y": 0.1594,
+    "z": -0.2183
+   },
+   "axis": {
+    "x": -0.999494,
+    "y": 0.0,
+    "z": -0.0318
+   }
+  },
+  {
+   "point": {
+    "x": 0.1677,
+    "y": 0.4394,
+    "z": -0.2161
+   },
+   "axis": {
+    "x": -0.999494,
+    "y": 0.0,
+    "z": -0.0318
+   }
+  },
+  {
+   "point": {
+    "x": -0.0481,
+    "y": 0.6794,
+    "z": -0.2241
+   },
+   "axis": {
+    "x": 0.999494,
+    "y": 0.0,
+    "z": 0.0318
+   }
+  },
+  {
+   "point": {
+    "x": 0.1018,
+    "y": 0.6262,
+    "z": -0.217
+   },
+   "axis": {
+    "x": -0.0014,
+    "y": -0.998995,
+    "z": 0.0448
+   }
+  },
+  {
+   "point": {
+    "x": 0.1,
+    "y": 0.5754,
+    "z": -0.2627
+   },
+   "axis": {
+    "x": 0.035499,
+    "y": 0.044699,
+    "z": 0.99837
+   }
+  }
+ ],
+ "tcp": {
+  "x": 0.109234,
+  "y": 0.587027,
+  "z": -0.003
+ },
+ "approach": {
+  "x": 0.035499,
+  "y": 0.044699,
+  "z": 0.99837
+ },
+ "jaw": {
+  "x": 0.999369,
+  "y": -0.000892,
+  "z": -0.035495
+ },
+ "openGap": 0.1134,
+ "maxStroke": 0.012,
+ "columnCenter": {
+  "x": -0.138686,
+  "y": 0.0015,
+  "z": 0.194204
+ },
+ "columnPadOrigin": {
+  "x": -0.138686,
+  "y": 0.1075,
+  "z": 0.194204
+ },
+ "columnPadUp": {
+  "x": 0.0,
+  "y": 1.0,
+  "z": 0.0
+ },
+ "columnPadRight": {
+  "x": 1.0,
+  "y": 0.0,
+  "z": 0.0
+ },
+ "tiltCenter": {
+  "x": 0.131659,
+  "y": 0.0015,
+  "z": 0.199267
+ },
+ "tiltPadOrigin": {
+  "x": 0.119822,
+  "y": 0.100637,
+  "z": 0.198267
+ },
+ "tiltPadUp": {
+  "x": -0.30743,
+  "y": 0.951571,
+  "z": 0.0
+ },
+ "tiltPadRight": {
+  "x": 0.951571,
+  "y": 0.30743,
+  "z": 0.0
+ },
+ "hingePoint": {
+  "x": 0.131659,
+  "y": 0.064,
+  "z": 0.199267
+ },
+ "hingeAxis": {
+  "x": 0.0,
+  "y": 0.0,
+  "z": -1.0
+ },
+ "modelTiltDeg": 17.9045,
+ "graspInPad": {
+  "x": -0.0007,
+  "y": 0.01,
+  "z": 0.0
+ }
+}

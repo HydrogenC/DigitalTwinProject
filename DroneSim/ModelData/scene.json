@@ -1,0 +1,549 @@
+{
+ "groups": {
+  "Table": [
+   "NAUO52",
+   "NAUO53",
+   "NAUO54"
+  ],
+  "RobotBase": [
+   "NAUO45",
+   "NAUO18",
+   "NAUO21",
+   "NAUO22",
+   "NAUO23",
+   "NAUO24",
+   "NAUO25",
+   "NAUO26",
+   "NAUO27",
+   "NAUO30",
+   "NAUO31",
+   "NAUO32",
+   "NAUO33",
+   "NAUO34",
+   "NAUO35",
+   "NAUO36",
+   "NAUO37",
+   "NAUO38",
+   "NAUO39"
+  ],
+  "Link1": [
+   "NAUO46"
+  ],
+  "Link2": [
+   "NAUO47"
+  ],
+  "Link3": [
+   "NAUO48"
+  ],
+  "Link4": [
+   "NAUO49"
+  ],
+  "Link5": [
+   "NAUO50"
+  ],
+  "Link6": [
+   "NAUO51",
+   "NAUO19",
+   "NAUO42",
+   "NAUO40",
+   "NAUO41",
+   "NAUO28",
+   "NAUO29"
+  ],
+  "JawA": [
+   "NAUO43",
+   "NAUO17"
+  ],
+  "JawB": [
+   "NAUO44",
+   "NAUO16"
+  ],
+  "ColumnSupport": [
+   "NAUO3"
+  ],
+  "TiltSupportBase": [
+   "NAUO8",
+   "NAUO11",
+   "NAUO13"
+  ],
+  "TiltSupportTop": [
+   "NAUO9",
+   "NAUO12"
+  ],
+  "Drone": [
+   "NAUO6",
+   "NAUO7"
+  ]
+ },
+ "joints": [
+  {
+   "point": [
+    0.0,
+    0.0206,
+    -0.22
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "point": [
+    0.0538,
+    0.1594,
+    -0.2183
+   ],
+   "axis": [
+    -0.999494,
+    0.0,
+    -0.0318
+   ]
+  },
+  {
+   "point": [
+    0.1677,
+    0.4394,
+    -0.2161
+   ],
+   "axis": [
+    -0.999494,
+    0.0,
+    -0.0318
+   ]
+  },
+  {
+   "point": [
+    -0.0481,
+    0.6794,
+    -0.2241
+   ],
+   "axis": [
+    0.999494,
+    0.0,
+    0.0318
+   ]
+  },
+  {
+   "point": [
+    0.1018,
+    0.6262,
+    -0.217
+   ],
+   "axis": [
+    -0.0014,
+    -0.998995,
+    0.0448
+   ]
+  },
+  {
+   "point": [
+    0.1,
+    0.5754,
+    -0.2627
+   ],
+   "axis": [
+    0.035499,
+    0.044699,
+    0.99837
+   ]
+  }
+ ],
+ "tool": {
+  "tcp": [
+   0.109234,
+   0.587027,
+   -0.003
+  ],
+  "approach": [
+   0.035499,
+   0.044699,
+   0.99837
+  ],
+  "jaw": [
+   0.999369,
+   -0.000892,
+   -0.035495
+  ],
+  "openGap": 0.1134,
+  "maxStroke": 0.012
+ },
+ "supports": {
+  "column": {
+   "center": [
+    -0.138686,
+    0.0015,
+    0.194204
+   ],
+   "pad": {
+    "origin": [
+     -0.138686,
+     0.1075,
+     0.194204
+    ],
+    "up": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "right": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "tilt": {
+   "center": [
+    0.131659,
+    0.0015,
+    0.199267
+   ],
+   "pad": {
+    "origin": [
+     0.119822,
+     0.100637,
+     0.198267
+    ],
+    "up": [
+     -0.30743,
+     0.951571,
+     0.0
+    ],
+    "right": [
+     0.951571,
+     0.30743,
+     0.0
+    ]
+   },
+   "hingePoint": [
+    0.131659,
+    0.064,
+    0.199267
+   ],
+   "hingeAxis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "modelTiltDeg": 17.9045
+  }
+ },
+ "drone": {
+  "graspInPad": {
+   "right": -0.0007,
+   "up": 0.01,
+   "forward": 0.0
+  }
+ },
+ "parts": {
+  "NAUO52": {
+   "name": "DUT-A01-001桌面（1mx1m）",
+   "colors": [
+    "49a954",
+    "c5c7c4",
+    "c6c1bc",
+    "ffffff"
+   ]
+  },
+  "NAUO53": {
+   "name": "XAB76-L120",
+   "colors": [
+    "dbe5ef"
+   ]
+  },
+  "NAUO54": {
+   "name": "XAB76-L120",
+   "colors": [
+    "dbe5ef"
+   ]
+  },
+  "NAUO45": {
+   "name": "RD20.1-MTFR3-V6.0-1^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件",
+   "colors": [
+    "7d0303",
+    "ffffff"
+   ]
+  },
+  "NAUO18": {
+   "name": "DUT-A04-001 FR3C安装板",
+   "colors": [
+    "c5c7c4"
+   ]
+  },
+  "NAUO21": {
+   "name": "D36-M6钢套磁吸（44kg，8mm）",
+   "colors": [
+    "a3aaad"
+   ]
+  },
+  "NAUO22": {
+   "name": "T088",
+   "colors": [
+    "0cff00",
+    "404040",
+    "727170",
+    "929292",
+    "a3a3a3",
+    "bdbbb9",
+    "e00000",
+    "eeeeee",
+    "f3ab00",
+    "ffee5a",
+    "ffffff"
+   ]
+  },
+  "NAUO23": {
+   "name": "D36-M6钢套磁吸（44kg，8mm）",
+   "colors": [
+    "a3aaad"
+   ]
+  },
+  "NAUO24": {
+   "name": "D36-M6钢套磁吸（44kg，8mm）",
+   "colors": [
+    "a3aaad"
+   ]
+  },
+  "NAUO25": {
+   "name": "D36-M6钢套磁吸（44kg，8mm）",
+   "colors": [
+    "a3aaad"
+   ]
+  },
+  "NAUO26": {
+   "name": "D36-M6钢套磁吸（44kg，8mm）",
+   "colors": [
+    "a3aaad"
+   ]
+  },
+  "NAUO27": {
+   "name": "D36-M6钢套磁吸（44kg，8mm）",
+   "colors": [
+    "a3aaad"
+   ]
+  },
+  "NAUO30": {
+   "name": "7V0500M2F",
+   "colors": [
+    "afafaf"
+   ]
+  },
+  "NAUO31": {
+   "name": "7V0510J04B200",
+   "colors": [
+    "4c4c4c",
+    "ffffff"
+   ]
+  },
+  "NAUO32": {
+   "name": "PAL01",
+   "colors": [
+    "0080ff",
+    "7f7f7f"
+   ]
+  },
+  "NAUO33": {
+   "name": "PAL01",
+   "colors": [
+    "0080ff",
+    "7f7f7f"
+   ]
+  },
+  "NAUO34": {
+   "name": "PC601",
+   "colors": [
+    "ffffff"
+   ]
+  },
+  "NAUO35": {
+   "name": "WHU01-01",
+   "colors": [
+    "dbe5ef"
+   ]
+  },
+  "NAUO36": {
+   "name": "WHU01-01",
+   "colors": [
+    "dbe5ef"
+   ]
+  },
+  "NAUO37": {
+   "name": "WHU01-01",
+   "colors": [
+    "dbe5ef"
+   ]
+  },
+  "NAUO38": {
+   "name": "P-7V0500M-R2",
+   "colors": [
+    "afafaf"
+   ]
+  },
+  "NAUO39": {
+   "name": "DUT-A04-006阀座安装板（2位）",
+   "colors": [
+    "c5c7c4"
+   ]
+  },
+  "NAUO46": {
+   "name": "RD20.1-MTFR3-V6.0-2^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件",
+   "colors": [
+    "7d0303",
+    "ffffff"
+   ]
+  },
+  "NAUO47": {
+   "name": "RD20.1-MTFR3-V6.0-3^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件",
+   "colors": [
+    "7d0303",
+    "ffffff"
+   ]
+  },
+  "NAUO48": {
+   "name": "RD20.1-MTFR3-V6.0-4^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件",
+   "colors": [
+    "7d0303",
+    "ffffff"
+   ]
+  },
+  "NAUO49": {
+   "name": "RD20.1-MTFR3-V6.0-5^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件",
+   "colors": [
+    "7d0303",
+    "ffffff"
+   ]
+  },
+  "NAUO50": {
+   "name": "RD20.1-MTFR3-V6.0-5^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件",
+   "colors": [
+    "7d0303",
+    "ffffff"
+   ]
+  },
+  "NAUO51": {
+   "name": "RD20.1-MTFR3-V6.0-7^FR3MT-V6.0 Model_XPZN-DUT-A04协作机器人组件",
+   "colors": [
+    "e5eaed"
+   ]
+  },
+  "NAUO19": {
+   "name": "DUT-A04-002 FR3C法兰",
+   "colors": [
+    "e5eaed"
+   ]
+  },
+  "NAUO42": {
+   "name": "HFD8X30(OP)_b",
+   "colors": [
+    "e5eaed"
+   ]
+  },
+  "NAUO40": {
+   "name": "A05-DMSH-030",
+   "colors": [
+    "4c4c4c",
+    "7f7f7f"
+   ]
+  },
+  "NAUO41": {
+   "name": "A05-DMSH-030",
+   "colors": [
+    "4c4c4c",
+    "7f7f7f"
+   ]
+  },
+  "NAUO28": {
+   "name": "DT1-A04-004B深度相机安装板2 2026-0722比赛",
+   "colors": [
+    "c5c7c4",
+    "ffffff"
+   ]
+  },
+  "NAUO29": {
+   "name": "Intel_RealSense_Depth_Camera_D435i",
+   "colors": [
+    "1a1a1a",
+    "c6c1bc",
+    "ffffff"
+   ]
+  },
+  "NAUO43": {
+   "name": "HFD8X30(OP)_t",
+   "colors": [
+    "e5eaed"
+   ]
+  },
+  "NAUO17": {
+   "name": "DUT-A04-003无人机气动手指",
+   "colors": [
+    "4c4c4c"
+   ]
+  },
+  "NAUO44": {
+   "name": "HFD8X30(OP)_t",
+   "colors": [
+    "e5eaed"
+   ]
+  },
+  "NAUO16": {
+   "name": "DUT-A04-003无人机气动手指",
+   "colors": [
+    "4c4c4c"
+   ]
+  },
+  "NAUO3": {
+   "name": "无人机支撑柱",
+   "colors": [
+    "ffffff"
+   ]
+  },
+  "NAUO8": {
+   "name": "支撑柱底部支架",
+   "colors": [
+    "ffffff"
+   ]
+  },
+  "NAUO11": {
+   "name": "ADU48-308-001",
+   "colors": [
+    "4c4c4c",
+    "b0b0b0"
+   ]
+  },
+  "NAUO13": {
+   "name": "ADU48-308-002",
+   "colors": [
+    "b0b0b0"
+   ]
+  },
+  "NAUO9": {
+   "name": "无人机上支撑架",
+   "colors": [
+    "ffffff"
+   ]
+  },
+  "NAUO12": {
+   "name": "ADU48-308-001",
+   "colors": [
+    "4c4c4c",
+    "b0b0b0"
+   ]
+  },
+  "NAUO6": {
+   "name": "1-1209zmv3c1_四轴飞行器主体",
+   "colors": [
+    "00ff00",
+    "4c4c4c",
+    "cd53ff",
+    "ff0000"
+   ]
+  },
+  "NAUO7": {
+   "name": "1-1209zmv3c1_四轴飞行器电池",
+   "colors": [
+    "cd53ff"
+   ]
+  }
+ }
+}
